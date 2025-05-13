@@ -1,17 +1,15 @@
 #include "stdio.h"
 #include "compressor_model.h"
+#include "linkList.h"
 
 
 int main()
 {
-	int a, b;
-	a = 9;
-	b = 10;
-	printf("hello world");
-    compressor_model_test();
+	printf("hello world\n");
+    // compressor_model_test();
     // refrig_prop_test();
     // sensor_pre_test();
-	printf("sum is:%f\r\n", x2x(a, b));
+	test_linkList();
 	return 0;
 }
 
